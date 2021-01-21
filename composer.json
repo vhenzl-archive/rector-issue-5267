@@ -9,5 +9,8 @@
     "psr-4": {
       "RectorBugTest\\": "src/"
     }
+  },
+  "scripts": {
+    "rector": "rector"
   }
 }
