@@ -1,0 +1,13 @@
+{
+  "require": {
+    "symfony/http-foundation": "^4.4"
+  },
+  "require-dev": {
+    "rector/rector": "^0.9.12"
+  },
+  "autoload": {
+    "psr-4": {
+      "RectorBugTest\\": "src/"
+    }
+  }
+}
