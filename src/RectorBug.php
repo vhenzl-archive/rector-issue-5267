@@ -4,8 +4,8 @@ namespace RectorBugTest;
 
 class RectorBug
 {
-    public function fails(\Symfony\Component\HttpFoundation\Request $request): void
+    public function fails(Xyz $xyz): void
     {
-        $request->query->get('xxx');
+        $xyz->abc->get('xxx');
     }
 }
