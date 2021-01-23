@@ -1,7 +1,4 @@
 {
-  "require-dev": {
-    "rector/rector": "^0.9.15"
-  },
   "autoload": {
     "psr-4": {
       "RectorBugTest\\": "src/"
@@ -9,5 +6,8 @@
   },
   "scripts": {
     "rector": "rector"
+  },
+  "require": {
+    "rector/rector": "0.9.10"
   }
 }
