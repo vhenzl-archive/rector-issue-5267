@@ -4,9 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ded15913238b99025545da458ed23bde",
-    "packages": [],
-    "packages-dev": [
+    "content-hash": "9a38fcd380fec1d75bb645a20fe5f13f",
+    "packages": [
         {
             "name": "composer/package-versions-deprecated",
             "version": "1.11.99.1",
@@ -1290,16 +1289,16 @@
         },
         {
             "name": "rector/rector",
-            "version": "0.9.15",
+            "version": "0.9.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rectorphp/rector.git",
-                "reference": "7badb6347e11b1e89df3a8af1f20da78ae34d3ee"
+                "reference": "6dd74ffb89d2674d37fbf7b53486151792d9b830"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rectorphp/rector/zipball/7badb6347e11b1e89df3a8af1f20da78ae34d3ee",
-                "reference": "7badb6347e11b1e89df3a8af1f20da78ae34d3ee",
+                "url": "https://api.github.com/repos/rectorphp/rector/zipball/6dd74ffb89d2674d37fbf7b53486151792d9b830",
+                "reference": "6dd74ffb89d2674d37fbf7b53486151792d9b830",
                 "shasum": ""
             },
             "require": {
@@ -1324,7 +1323,6 @@
                 "symfony/dependency-injection": "^5.1",
                 "symfony/finder": "^4.4.8|^5.1",
                 "symfony/http-kernel": "^4.4.8|^5.1",
-                "symfony/process": "^4.4.8|^5.1",
                 "symplify/astral": "^9.0.34",
                 "symplify/autowire-array-parameter": "^9.0.34",
                 "symplify/console-color-diff": "^9.0.34",
@@ -1493,7 +1491,7 @@
             ],
             "support": {
                 "issues": "https://github.com/rectorphp/rector/issues",
-                "source": "https://github.com/rectorphp/rector/tree/0.9.15"
+                "source": "https://github.com/rectorphp/rector/tree/0.9.11"
             },
             "funding": [
                 {
@@ -1501,7 +1499,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-01-22T19:01:32+00:00"
+            "time": "2021-01-20T14:05:20+00:00"
         },
         {
             "name": "sebastian/diff",
@@ -3179,68 +3177,6 @@
             "time": "2021-01-07T16:49:33+00:00"
         },
         {
-            "name": "symfony/process",
-            "version": "v5.2.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/process.git",
-                "reference": "bd8815b8b6705298beaa384f04fabd459c10bedd"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/bd8815b8b6705298beaa384f04fabd459c10bedd",
-                "reference": "bd8815b8b6705298beaa384f04fabd459c10bedd",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.2.5",
-                "symfony/polyfill-php80": "^1.15"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Symfony\\Component\\Process\\": ""
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Symfony Process Component",
-            "homepage": "https://symfony.com",
-            "support": {
-                "source": "https://github.com/symfony/process/tree/v5.2.1"
-            },
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2020-12-08T17:03:37+00:00"
-        },
-        {
             "name": "symfony/service-contracts",
             "version": "v2.2.0",
             "source": {
@@ -4587,6 +4523,7 @@
             "time": "2020-07-08T17:02:28+00:00"
         }
     ],
+    "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": [],
